@@ -1,40 +1,42 @@
 import React from "react"
 import { GetStaticProps } from "next"
 import Layout from "../components/Layout"
-import Post, { PostProps } from "../components/Post"
+import Lego, { LegoProps } from "../components/Lego"
+import prisma from "../lib/prisma"
+import lego from "../components/Lego"
 
 export const getStaticProps: GetStaticProps = async () => {
-  const feed = [
-    {
-      id: "1",
-      title: "Prisma is the perfect ORM for Next.js",
-      content: "[Prisma](https://github.com/prisma/prisma) and Next.js go _great_ together!",
-      published: false,
-      author: {
-        name: "Nikolas Burk",
-        email: "burk@prisma.io",
-      },
-    },
-  ]
-  return { 
-    props: { feed }, 
-    revalidate: 10 
-  }
-}
+  const feed = await prisma.lego.findMany({
+    where: { 
+      id:{not: undefined}
+     },
+    select: {
+      id: true,
+      name: true,
+      piece: true,
+      img: true,
+    }
+  });
+  return {
+    props: { feed },
+    revalidate: 10,
+  };
+};
 
 type Props = {
-  feed: PostProps[]
+  feed: LegoProps[]
 }
 
-const Blog: React.FC<Props> = (props) => {
+const LegosList: React.FC<Props> = (props) => {
+  let legoIdInt = Number(lego.id)
   return (
     <Layout>
       <div className="page">
-        <h1>Public Feed</h1>
+        <h1>List of Sets</h1>
         <main>
-          {props.feed.map((post) => (
-            <div key={post.id} className="post">
-              <Post post={post} />
+          {props.feed.map((lego) => (
+            <div key={legoIdInt} className="post">
+              <Lego lego={lego} />
             </div>
           ))}
         </main>
@@ -57,4 +59,4 @@ const Blog: React.FC<Props> = (props) => {
   )
 }
 
-export default Blog
+export default LegosList

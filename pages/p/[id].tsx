@@ -3,35 +3,39 @@ import { GetServerSideProps } from "next"
 import ReactMarkdown from "react-markdown"
 import Layout from "../../components/Layout"
 import { PostProps } from "../../components/Post"
+import prisma from '../../lib/prisma';
+import { LegoProps } from "../../components/Lego"
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
-  const post = {
-    id: "1",
-    title: "Prisma is the perfect ORM for Next.js",
-    content: "[Prisma](https://github.com/prisma/prisma) and Next.js go _great_ together!",
-    published: false,
-    author: {
-      name: "Nikolas Burk",
-      email: "burk@prisma.io",
+  const lego = await prisma.lego.findUnique({
+    where: {
+      id: String(params?.id),
     },
-  }
+    select: {
+      id: true,
+      name: true,
+      piece: true,
+      img: true,
+    }
+  });
   return {
-    props: post,
-  }
-}
+    props: lego,
+  };
+};
 
-const Post: React.FC<PostProps> = (props) => {
-  let title = props.title
-  if (!props.published) {
-    title = `${title} (Draft)`
-  }
+const lego: React.FC<LegoProps> = (props) => {
+  let title = lego.name
+  let setImage = lego.img
+  let setPieces = lego.piece
+  let setId = lego.id
 
   return (
     <Layout>
       <div>
         <h2>{title}</h2>
-        <p>By {props?.author?.name || "Unknown author"}</p>
-        <ReactMarkdown children={props.content} />
+        <h3>{setPieces}</h3>
+        <h3>{setId}</h3>
+        <img>src={setImage}</img>
       </div>
       <style jsx>{`
         .page {
@@ -58,4 +62,4 @@ const Post: React.FC<PostProps> = (props) => {
   )
 }
 
-export default Post
+export default lego
