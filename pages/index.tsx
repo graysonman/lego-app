@@ -4,7 +4,6 @@ import Layout from "../components/Layout"
 import { LegoProps } from "../components/Lego"
 import prisma from "../lib/prisma"
 
-
 export const getStaticProps: GetStaticProps = async () => {
   const feed = await prisma.lego.findMany({
     where: { 
@@ -58,10 +57,10 @@ const LegosList: React.FC<Props> = (props) => {
         </div>
         <main>
           {filteredFeed.map((lego) => (
-            <div key={lego.id} className="post">
+            <div key={Number(lego.id)} className="post">
               <h2>{lego.name}</h2>
               <p>Pieces: {lego.piece}</p>
-              <img src={lego.img} alt={lego.name} />
+              <img src={lego.img.toString()} alt={lego.name.toString()} />
             </div>
           ))}
         </main>

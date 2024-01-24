@@ -3,10 +3,10 @@ import Router from "next/router";
 import ReactMarkdown from "react-markdown";
 
 export type LegoProps = {
-    id: string;
-    name: string;
+    id: String;
+    name: String;
     piece: number;
-    img: string;
+    img: String;
 }
 
 const legoSet: React.FC<{ lego: LegoProps }> = ({ lego }) => {
