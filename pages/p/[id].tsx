@@ -24,18 +24,13 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
 };
 
 const lego: React.FC<LegoProps> = (props) => {
-  let title = lego.name
-  let setImage = lego.img
-  let setPieces = lego.piece
-  let setId = lego.id
-
   return (
     <Layout>
       <div>
-        <h2>{title}</h2>
-        <h3>{setPieces}</h3>
-        <h3>{setId}</h3>
-        <img>src={setImage}</img>
+        <h2>{props.name}</h2>
+        <h3>{props.piece}</h3>
+        <h3>{props.id}</h3>
+        <img>src={props.img.toString()}</img>
       </div>
       <style jsx>{`
         .page {
