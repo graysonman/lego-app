@@ -1,15 +1,18 @@
-import React from "react"
+import React, { useState } from 'react';
 import { GetStaticProps } from "next"
 import Layout from "../components/Layout"
-import Lego, { LegoProps } from "../components/Lego"
+import { LegoProps } from "../components/Lego"
 import prisma from "../lib/prisma"
-import lego from "../components/Lego"
+
 
 export const getStaticProps: GetStaticProps = async () => {
   const feed = await prisma.lego.findMany({
     where: { 
       id:{not: undefined}
      },
+     orderBy: {
+      id: 'asc', 
+    },
     select: {
       id: true,
       name: true,
@@ -28,15 +31,37 @@ type Props = {
 }
 
 const LegosList: React.FC<Props> = (props) => {
-  let legoIdInt = Number(lego.id)
+
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredFeed = props.feed.filter(
+    (lego) =>
+      lego.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      lego.id.toString().includes(searchTerm)
+  );
+
   return (
     <Layout>
       <div className="page">
         <h1>List of Sets</h1>
+        <div>
+          <input
+            type="text"
+            placeholder="Search by ID or name"
+            value={searchTerm}
+            onChange={handleSearchChange}
+          />
+        </div>
         <main>
-          {props.feed.map((lego) => (
-            <div key={legoIdInt} className="post">
-              <Lego lego={lego} />
+          {filteredFeed.map((lego) => (
+            <div key={lego.id} className="post">
+              <h2>{lego.name}</h2>
+              <p>Pieces: {lego.piece}</p>
+              <img src={lego.img} alt={lego.name} />
             </div>
           ))}
         </main>
@@ -53,6 +78,11 @@ const LegosList: React.FC<Props> = (props) => {
 
         .post + .post {
           margin-top: 2rem;
+        }
+
+        img {
+          max-width: 20%;
+          height: auto;
         }
       `}</style>
     </Layout>
