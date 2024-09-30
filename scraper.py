@@ -1,10 +1,11 @@
+import csv
 import requests
 from bs4 import BeautifulSoup
 import psycopg2
 import urllib.parse as up
 
 # Database connection string
-DB_URL = "postgres://default:IPMCW8NH6iRa@ep-lucky-hall-46830104.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
+DB_URL = "replace with your database url"
 url = 'https://www.lego.com/en-us/themes/star-wars'
 
 # Function to connect to the database
@@ -26,17 +27,19 @@ def connect_db():
         print(f"Failed to connect to the database: {e}")
         return None
 
-
 # Function to insert data into the database
 def insert_data(set_number, name, piece_count, image_url):
     print("connecting to database")
     conn = connect_db()
-    print("failed to connect")
+    if conn is None:
+        print("Failed to connect to the database.")
+        return
+
     cursor = conn.cursor()
     
     cursor.execute(
         """
-        INSERT INTO Lego (id, name, piece, img)
+        INSERT INTO "Lego" (id, name, piece, img)
         VALUES (%s, %s, %s, %s)
         """,
         (set_number, name, piece_count, image_url)
@@ -45,33 +48,19 @@ def insert_data(set_number, name, piece_count, image_url):
     conn.commit()
     cursor.close()
     conn.close()
+    print("Updated Database")
 
-# Function to scrape LEGO Star Wars sets
-current_page_url = url  # Initial URL
-while current_page_url:
-    response = requests.get(current_page_url)
-    if response.status_code != 200:
-        print(f"Failed to retrieve page with status code {response.status_code}")
-        break
+# Function to read data from CSV and upload to the database
+def upload_data_from_csv(csv_file_path):
+    with open(csv_file_path, newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            set_number = row['set_number']
+            name = row['name']
+            piece_count = int(row['piece_count'])
+            image_url = row.get('image_url', '')  # Default to empty string if image_url is not in CSV
+            insert_data(set_number, name, piece_count, image_url)
 
-    soup = BeautifulSoup(response.content, 'html.parser')
-    sets = soup.find_all('div', class_='product-card')
-
-    for set_item in sets:
-        set_number = set_item['data-set-number']
-        name = set_item.find('h2').text.strip()
-        image_url = set_item.find('img')['src']
-        piece_count = int(set_item.find('span', class_='pieces').text.strip())
-        print(f"Adding: {set_number}, {name}, {piece_count}, {image_url}")
-        insert_data(set_number, name, piece_count, image_url)
-
-    next_page = soup.find('a', {'data-test': 'pagination-next'})
-    if next_page and 'href' in next_page.attrs:
-        next_page_url = next_page['href']
-        current_page_url = f'{url}{next_page_url}'
-    else:
-        current_page_url = None  # No more pages
-
-
-if __name__ == "__main__":
-    scrape_star_wars_sets()
+# Example usage
+csv_file_path = r'C:\react\blogr-nextjs-prisma\starwarsSets2.csv'
+upload_data_from_csv(csv_file_path)

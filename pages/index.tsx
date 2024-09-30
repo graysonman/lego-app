@@ -46,7 +46,7 @@ const LegosList: React.FC<Props> = (props) => {
   return (
     <Layout>
       <div className="page">
-        <h1>List of Sets</h1>
+        <h1>Lego Star Wars Sets</h1>
         <div>
           <input
             type="text"
