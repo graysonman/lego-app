@@ -1,0 +1,758 @@
+set_number,name,piece_count,image_url
+3219,Mini TIE Fighter,12,https://images.brickset.com/sets/small/3219-1.jpg?200708030701
+3340,"Star Wars #1 - Emperor Palpatine, Darth Maul and Darth Vader",32,https://images.brickset.com/sets/small/3340-1.jpg?200006010843
+3341,"Star Wars #2 - Luke Skywalker, Han Solo and Boba Fett",22,https://images.brickset.com/sets/small/3341-1.jpg?201910160846
+3342,Star Wars #3 - Chewbacca and 2 Biker Scouts,22,https://images.brickset.com/sets/small/3342-1.jpg?201910160845
+3343,Star Wars #4 - Battle Droid Commander and 2 Battle Droids,30,https://images.brickset.com/sets/small/3343-1.jpg?200006010843
+4475,Jabba's Message,44,https://images.brickset.com/sets/small/4475-1.jpg?200709280611
+4476,Jabba's Prize,40,https://images.brickset.com/sets/small/4476-1.jpg?200709280612
+4477,T-16 Skyhopper ,98,https://images.brickset.com/sets/small/4477-1.jpg?200709280612
+4478,Geonosian Fighter,170,https://images.brickset.com/sets/small/4478-1.jpg?200709280635
+4479,TIE Bomber,230,https://images.brickset.com/sets/small/4479-1.jpg?200709280613
+4480,Jabba's Palace,231,https://images.brickset.com/sets/small/4480-1.jpg?200709280613
+4481,Hailfire Droid,681,https://images.brickset.com/sets/small/4481-1.jpg?200709280635
+4482,AT-TE,658,https://images.brickset.com/sets/small/4482-1.jpg?200709280635
+4483,AT-AT,1064,https://images.brickset.com/sets/small/4483-1.jpg?200709280613
+4484,X-wing Fighter & TIE Advanced,76,https://images.brickset.com/sets/small/4484-1.jpg?200211031121
+4485,Sebulba's Podracer & Anakin's Podracer,72,https://images.brickset.com/sets/small/4485-1.jpg?200211031122
+4486,AT-ST & Snowspeeder,76,https://images.brickset.com/sets/small/4486-1.jpg?200211031123
+4487,Jedi Starfighter & Slave I,53,https://images.brickset.com/sets/small/4487-1.jpg?200211031124
+4488,Millennium Falcon,87,https://images.brickset.com/sets/small/4488-1.jpg?200301030418
+4489,AT-AT,98,https://images.brickset.com/sets/small/4489-1.jpg?200301030418
+4490,Republic Gunship,102,https://images.brickset.com/sets/small/4490-1.jpg?200301030418
+4491,MTT,99,https://images.brickset.com/sets/small/4491-1.jpg?200301030418
+4492,Star Destroyer,87,https://images.brickset.com/sets/small/4492-1.jpg?200310020124
+4493,Sith Infiltrator,55,https://images.brickset.com/sets/small/4493-1.jpg?200310020124
+4494,Imperial Shuttle,82,https://images.brickset.com/sets/small/4494-1.jpg?200310020126
+4495,AT-TE,63,https://images.brickset.com/sets/small/4495-1.jpg?200310020127
+4500,Rebel Snowspeeder,214,https://images.brickset.com/sets/small/4500-1.jpg?200709280613
+4501,Mos Eisley Cantina,193,https://images.brickset.com/sets/small/4501-1.jpg?200709280614
+4502,X-wing Fighter,563,https://images.brickset.com/sets/small/4502-1.jpg?200709280614
+4504,Millennium Falcon,985,https://images.brickset.com/sets/small/4504-1.jpg?200709280614
+6205,V-wing Fighter,118,https://images.brickset.com/sets/small/6205-1.jpg?200709280637
+6206,TIE Interceptor,212,https://images.brickset.com/sets/small/6206-1.jpg?200709280614
+6207,A-wing Fighter,194,https://images.brickset.com/sets/small/6207-1.jpg?200709280615
+6208,B-wing Fighter,435,https://images.brickset.com/sets/small/6208-1.jpg?200709280615
+6209,Slave I,537,https://images.brickset.com/sets/small/6209-1.jpg?200709280615
+6210,Jabba's Sail Barge,781,https://images.brickset.com/sets/small/6210-1.jpg?200709280616
+6211,Imperial Star Destroyer,1367,https://images.brickset.com/sets/small/6211-1.jpg?200709280616
+6212,X-wing Fighter,437,https://images.brickset.com/sets/small/6212-1.jpg?200709280616
+6963,X-wing Fighter,41,https://images.brickset.com/sets/small/6963-1.jpg?200405251034
+6964,Boba Fett's Slave I,25,https://images.brickset.com/sets/small/6964-1.jpg?200405251035
+6965,TIE Interceptor,32,https://images.brickset.com/sets/small/6965-1.jpg?200405251036
+6966,Mini Jedi Starfighter,38,https://images.brickset.com/sets/small/6966-1.jpg?200503250152
+6967,Mini ARC-170 Starfighter,42,https://images.brickset.com/sets/small/6967-1.jpg?200505180352
+6968,Wookiee Attack,48,https://images.brickset.com/sets/small/6968-1.jpg?201110270623
+7101,Lightsaber Duel,52,https://images.brickset.com/sets/small/7101-1.jpg?200709280631
+7103,Jedi Duel,82,https://images.brickset.com/sets/small/7103-1.jpg?200709280635
+7104,Desert Skiff,55,https://images.brickset.com/sets/small/7104-1.jpg?200709280616
+7106,Droid Escape,45,https://images.brickset.com/sets/small/7106-1.jpg?200709280617
+7110,Landspeeder,49,https://images.brickset.com/sets/small/7110-1.jpg?200709280617
+7111,Droid Fighter,62,https://images.brickset.com/sets/small/7111-1.jpg?200709280631
+7113,Tusken Raider Encounter,93,https://images.brickset.com/sets/small/7113-1.jpg?200709280636
+7115,Gungan Patrol,77,https://images.brickset.com/sets/small/7115-1.jpg?200709280631
+7119,Twin-Pod Cloud Car,118,https://images.brickset.com/sets/small/7119-1.jpg?200709280617
+7121,Naboo Swamp,82,https://images.brickset.com/sets/small/7121-1.jpg?200709280631
+7124,Flash Speeder,106,https://images.brickset.com/sets/small/7124-1.jpg?200709280631
+7126,Battle Droid Carrier,133,https://images.brickset.com/sets/small/7126-1.jpg?200709280631
+7127,Imperial AT-ST,107,https://images.brickset.com/sets/small/7127-1.jpg?200709280617
+7128,Speeder Bikes,93,https://images.brickset.com/sets/small/7128-1.jpg?200709280618
+7130,Snowspeeder,215,https://images.brickset.com/sets/small/7130-1.jpg?200709280618
+7131,Anakin's Podracer,136,https://images.brickset.com/sets/small/7131-1.jpg?200709280632
+7133,Bounty Hunter Pursuit,259,https://images.brickset.com/sets/small/7133-1.jpg?200709280636
+7134,A-wing Fighter,125,https://images.brickset.com/sets/small/7134-1.jpg?200709280618
+7139,Ewok Attack,121,https://images.brickset.com/sets/small/7139-1.jpg?200709280619
+7140,X-wing Fighter,266,https://images.brickset.com/sets/small/7140-1.jpg?200709280619
+7141,Naboo Fighter,179,https://images.brickset.com/sets/small/7141-1.jpg?200709280632
+7142,X-wing Fighter,267,https://images.brickset.com/sets/small/7142-1.jpg?200709280619
+7143,Jedi Starfighter,138,https://images.brickset.com/sets/small/7143-1.jpg?200709280636
+7144,Slave I,166,https://images.brickset.com/sets/small/7144-1.jpg?200709280620
+7146,TIE Fighter,171,https://images.brickset.com/sets/small/7146-1.jpg?200709280620
+7150,TIE Fighter & Y-wing,409,https://images.brickset.com/sets/small/7150-1.jpg?200709280621
+7151,Sith Infiltrator,244,https://images.brickset.com/sets/small/7151-1.jpg?200709280632
+7152,TIE Fighter & Y-wing,410,https://images.brickset.com/sets/small/7152-1.jpg?200709280621
+7153,Jango Fett's Slave I,369,https://images.brickset.com/sets/small/7153-1.jpg?200709280636
+7155,Trade Federation AAT,158,https://images.brickset.com/sets/small/7155-1.jpg?200709280632
+7159,Star Wars Podracing Bucket,292,https://images.brickset.com/sets/small/7159-1.jpg?200709280632
+7161,Gungan Sub,379,https://images.brickset.com/sets/small/7161-1.jpg?200709280632
+7163,Republic Gunship,686,https://images.brickset.com/sets/small/7163-1.jpg?200709280636
+7166,Imperial Shuttle,238,https://images.brickset.com/sets/small/7166-1.jpg?200709280621
+7171,Mos Espa Podrace,896,https://images.brickset.com/sets/small/7171-1.jpg?200709280632
+7180,B-wing at Rebel Control Centre,338,https://images.brickset.com/sets/small/7180-1.jpg?200709280621
+7181,TIE Interceptor,703,https://images.brickset.com/sets/small/7181-1.jpg?199910241113
+7184,Trade Federation MTT,470,https://images.brickset.com/sets/small/7184-1.jpg?200709280633
+7186,Watto's Junkyard,443,https://images.brickset.com/sets/small/7186-1.jpg?200709280633
+7190,Millennium Falcon,663,https://images.brickset.com/sets/small/7190-1.jpg?200709280622
+7191,X-wing Fighter,1300,https://images.brickset.com/sets/small/7191-1.jpg?199910241113
+7194,Yoda,1075,https://images.brickset.com/sets/small/7194-1.jpg?200109211200
+7200,Final Duel I,29,https://images.brickset.com/sets/small/7200-1.jpg?200709280622
+7201,Final Duel II,23,https://images.brickset.com/sets/small/7201-1.jpg?200709280622
+7203,Jedi Defense I,59,https://images.brickset.com/sets/small/7203-1.jpg?200709280633
+7204,Jedi Defense II,53,https://images.brickset.com/sets/small/7204-1.jpg?200709280633
+7250,Clone Scout Walker,108,https://images.brickset.com/sets/small/7250-1.jpg?200709280637
+7251,Darth Vader Transformation,53,https://images.brickset.com/sets/small/7251-1.jpg?200709280637
+7252,Droid Tri-Fighter,148,https://images.brickset.com/sets/small/7252-1.jpg?200709280637
+7255,General Grievous Chase,111,https://images.brickset.com/sets/small/7255-1.jpg?200709280637
+7256,Jedi Starfighter and Vulture Droid,202,https://images.brickset.com/sets/small/7256-1.jpg?200709280637
+7257,Ultimate Lightsaber Duel,282,https://images.brickset.com/sets/small/7257-1.jpg?200709280637
+7258,Wookiee Attack,366,https://images.brickset.com/sets/small/7258-1.jpg?200709280638
+7259,ARC-170 Fighter,396,https://images.brickset.com/sets/small/7259-1.jpg?200709280638
+7260,Wookiee Catamaran,376,https://images.brickset.com/sets/small/7260-1.jpg?200709280638
+7261,Clone Turbo Tank,801,https://images.brickset.com/sets/small/7261-1.jpg?200709280638
+7262,TIE Fighter and Y-wing,412,https://images.brickset.com/sets/small/7262-1.jpg?200709280622
+7263,TIE Fighter,159,https://images.brickset.com/sets/small/7263-1.jpg?200709280623
+7264,Imperial Inspection,367,https://images.brickset.com/sets/small/7264-1.jpg?200709280623
+7283,Ultimate Space Battle,567,https://images.brickset.com/sets/small/7283-1.jpg?201910160842
+7654,Droids Battle Pack,102,https://images.brickset.com/sets/small/7654-1.jpg?200709280638
+7655,Clone Troopers Battle Pack,58,https://images.brickset.com/sets/small/7655-1.jpg?200709280639
+7656,General Grievous Starfighter,232,https://images.brickset.com/sets/small/7656-1.jpg?200709280639
+7657,AT-ST,244,https://images.brickset.com/sets/small/7657-1.jpg?200709280623
+7658,Y-wing Fighter,454,https://images.brickset.com/sets/small/7658-1.jpg?200709280623
+7659,Imperial Landing Craft,471,https://images.brickset.com/sets/small/7659-1.jpg?200709280624
+7660,Naboo N-1 Starfighter with Vulture Droid,280,https://images.brickset.com/sets/small/7660-1.jpg?200709280633
+7661,Jedi Starfighter with Hyperdrive Booster Ring,575,https://images.brickset.com/sets/small/7661-1.jpg?200709280639
+7662,Trade Federation MTT,1330,https://images.brickset.com/sets/small/7662-1.jpg?200709280633
+7663,Sith Infiltrator,310,https://images.brickset.com/sets/small/7663-1.jpg?200710080822
+7664,TIE Crawler,548,https://images.brickset.com/sets/small/7664-1.jpg?200801171242
+7665,Republic Cruiser,919,https://images.brickset.com/sets/small/7665-1.jpg?200709280634
+7666,Hoth Rebel Base,548,https://images.brickset.com/sets/small/7666-1.jpg?200709280624
+7667,Imperial Dropship,81,https://images.brickset.com/sets/small/7667-1.jpg?200801171243
+7668,Rebel Scout Speeder,82,https://images.brickset.com/sets/small/7668-1.jpg?200712160629
+7669,Anakin's Jedi Starfighter,153,https://images.brickset.com/sets/small/7669-1.jpg?200712210129
+7670,Hailfire Droid & Spider Droid,249,https://images.brickset.com/sets/small/7670-1.jpg?200712160632
+7671,AT-AP Walker,392,https://images.brickset.com/sets/small/7671-1.jpg?200712160629
+7672,Rogue Shadow,482,https://images.brickset.com/sets/small/7672-1.jpg?200712210130
+7673,Magna Guard Starfighter,431,https://images.brickset.com/sets/small/7673-1.jpg?200807160536
+7674,V-19 Torrent,471,https://images.brickset.com/sets/small/7674-1.jpg?200807170546
+7675,AT-TE Walker,798,https://images.brickset.com/sets/small/7675-1.jpg?200807200942
+7676,Republic Attack Gunship,1034,https://images.brickset.com/sets/small/7676-1.jpg?200807230101
+7678,Droid Gunship,329,https://images.brickset.com/sets/small/7678-1.jpg?200807170546
+7679,Republic Fighter Tank,592,https://images.brickset.com/sets/small/7679-1.jpg?200807261246
+7680,The Twilight,882,https://images.brickset.com/sets/small/7680-1.jpg?200807261242
+7681,Separatist Spider Droid,206,https://images.brickset.com/sets/small/7681-1.jpg?200807261240
+7748,Corporate Alliance Tank Droid,216,https://images.brickset.com/sets/small/7748-1.jpg?200905051225
+7749,Echo Base,155,https://images.brickset.com/sets/small/7749-1.jpg?200905210339
+7751,Ahsoka's Starfighter and Vulture Droid,291,https://images.brickset.com/sets/small/7751-1.jpg?200812240920
+7752,Count Dooku's Solar Sailer,385,https://images.brickset.com/sets/small/7752-1.jpg?200812240920
+7753,Pirate Tank,372,https://images.brickset.com/sets/small/7753-1.jpg?200904250325
+7754,Home One Mon Calamari Star Cruiser,789,https://images.brickset.com/sets/small/7754-1.jpg?200812230554
+7778,Midi-scale Millennium Falcon,356,https://images.brickset.com/sets/small/7778-1.jpg?200904250333
+7868,Mace Windu's Jedi Starfighter,309,https://images.brickset.com/sets/small/7868-1.jpg?201012170346
+7869,Battle for Geonosis,331,https://images.brickset.com/sets/small/7869-1.jpg?201012221107
+7877,Naboo Starfighter,318,https://images.brickset.com/sets/small/7877-1.jpg?201103240413
+7879,Hoth Echo Base,773,https://images.brickset.com/sets/small/7879-1.jpg?201106010207
+7913,Clone Trooper Battle Pack,85,https://images.brickset.com/sets/small/7913-1.jpg?201012230326
+7914,Mandalorian Battle Pack,68,https://images.brickset.com/sets/small/7914-1.jpg?201012230326
+7915,Imperial V-wing Starfighter,139,https://images.brickset.com/sets/small/7915-1.jpg?201012221108
+7929,The Battle of Naboo,241,https://images.brickset.com/sets/small/7929-1.jpg?201012221109
+7930,Bounty Hunter Assault Gunship,389,https://images.brickset.com/sets/small/7930-1.jpg?201012230325
+7931,T-6 Jedi Shuttle,389,https://images.brickset.com/sets/small/7931-1.jpg?201012230324
+7956,Ewok Attack,166,https://images.brickset.com/sets/small/7956-1.jpg?201102131044
+7957,Sith Nightspeeder,214,https://images.brickset.com/sets/small/7957-1.jpg?201102131044
+7958,LEGO Star Wars Advent Calendar,266,https://images.brickset.com/sets/small/7958-1.jpg?201605181105
+7959,Geonosian Starfighter,155,https://images.brickset.com/sets/small/7959-1.jpg?201102131044
+7961,Darth Maul's Sith Infiltrator,479,https://images.brickset.com/sets/small/7961-1.jpg?201102131044
+7962,Anakin Skywalker and Sebulba's Podracers,810,https://images.brickset.com/sets/small/7962-1.jpg?201102131044
+7964,Republic Frigate,1015,https://images.brickset.com/sets/small/7964-1.jpg?201102131044
+7965,Millennium Falcon,1254,https://images.brickset.com/sets/small/7965-1.jpg?201102131044
+8000,Pit Droid,223,https://images.brickset.com/sets/small/8000-1.jpg?200709281002
+8001,Battle Droid,363,https://images.brickset.com/sets/small/8001-1.jpg?200709281003
+8002,Destroyer Droid,558,https://images.brickset.com/sets/small/8002-1.jpg?200709281003
+8007,C-3PO,341,https://images.brickset.com/sets/small/8007-1.jpg?200709281005
+8008,Stormtrooper,361,https://images.brickset.com/sets/small/8008-1.jpg?200709281006
+8009,R2-D2,240,https://images.brickset.com/sets/small/8009-1.jpg?200709281006
+8010,Darth Vader,391,https://images.brickset.com/sets/small/8010-1.jpg?200709281007
+8011,Jango Fett,422,https://images.brickset.com/sets/small/8011-1.jpg?200709281007
+8012,Super Battle Droid,379,https://images.brickset.com/sets/small/8012-1.jpg?200709281007
+8014,Clone Walker Battle Pack,72,https://images.brickset.com/sets/small/8014-1.jpg?200812111117
+8015,Assassin Droids Battle Pack,94,https://images.brickset.com/sets/small/8015-1.jpg?200812111117
+8016,Hyena Droid Bomber,232,https://images.brickset.com/sets/small/8016-1.jpg?200812111117
+8017,Darth Vader's TIE Fighter,251,https://images.brickset.com/sets/small/8017-1.jpg?200812011049
+8018,Armored Assault Tank (AAT),407,https://images.brickset.com/sets/small/8018-1.jpg?200812111117
+8019,Republic Attack Shuttle,636,https://images.brickset.com/sets/small/8019-1.jpg?200812111117
+8028,TIE Fighter,44,https://images.brickset.com/sets/small/8028-1.jpg?200808030513
+8029,Mini Snowspeeder,66,https://images.brickset.com/sets/small/8029-1.jpg?200811030333
+8031,V-19 Torrent,66,https://images.brickset.com/sets/small/8031-1.jpg?200809130416
+8033,General Grievous' Starfighter,44,https://images.brickset.com/sets/small/8033-1.jpg?200901170359
+8036,Separatist Shuttle,259,https://images.brickset.com/sets/small/8036-1.jpg?200905210339
+8037,Anakin's Y-wing Starfighter,570,https://images.brickset.com/sets/small/8037-1.jpg?200905210339
+8038,The Battle of Endor,890,https://images.brickset.com/sets/small/8038-1.jpg?200905200857
+8039,Venator-class Republic Attack Cruiser,1170,https://images.brickset.com/sets/small/8039-1.jpg?200901100449
+8083,Rebel Trooper Battle Pack,79,https://images.brickset.com/sets/small/8083-1.jpg?200912120107
+8084,Snowtrooper Battle Pack,74,https://images.brickset.com/sets/small/8084-1.jpg?200912120107
+8085,Freeco Speeder,177,https://images.brickset.com/sets/small/8085-1.jpg?200912120706
+8086,Droid Tri-Fighter,268,https://images.brickset.com/sets/small/8086-1.jpg?200912130333
+8087,TIE Defender,304,https://images.brickset.com/sets/small/8087-1.jpg?200912120107
+8088,ARC-170 Starfighter,396,https://images.brickset.com/sets/small/8088-1.jpg?200912130333
+8089,Hoth Wampa Cave,297,https://images.brickset.com/sets/small/8089-1.jpg?201004280530
+8091,Republic Swamp Speeder,176,https://images.brickset.com/sets/small/8091-1.jpg?200912120337
+8092,Luke's Landspeeder,163,https://images.brickset.com/sets/small/8092-1.jpg?200912210246
+8093,Plo Koon's Jedi Starfighter,175,https://images.brickset.com/sets/small/8093-1.jpg?201004280530
+8095,General Grievous' Starfighter,454,https://images.brickset.com/sets/small/8095-1.jpg?201004280530
+8096,Emperor Palpatine's Shuttle,592,https://images.brickset.com/sets/small/8096-1.jpg?201004280820
+8097,Slave I,573,https://images.brickset.com/sets/small/8097-1.jpg?201004280530
+8098,Clone Turbo Tank,1141,https://images.brickset.com/sets/small/8098-1.jpg?201004280530
+8099,Midi-scale Imperial Star Destroyer,423,https://images.brickset.com/sets/small/8099-1.jpg?201006270420
+8128,Cad Bane's Speeder,318,https://images.brickset.com/sets/small/8128-1.jpg?201005181219
+8129,AT-AT Walker,815,https://images.brickset.com/sets/small/8129-1.jpg?201006270420
+9488,Elite Clone Trooper & Commando Droid Battle Pack,98,https://images.brickset.com/sets/small/9488-1.jpg?201110150700
+9489,Endor Rebel Trooper & Imperial Trooper Battle Pack,77,https://images.brickset.com/sets/small/9489-1.jpg?201110150700
+9490,Droid Escape,137,https://images.brickset.com/sets/small/9490-1.jpg?201110150700
+9491,Geonosian Cannon,132,https://images.brickset.com/sets/small/9491-1.jpg?201110221038
+9492,TIE Fighter,413,https://images.brickset.com/sets/small/9492-1.jpg?201110150700
+9493,X-wing Starfighter,560,https://images.brickset.com/sets/small/9493-1.jpg?201110150700
+9494,Anakin's Jedi Interceptor,300,https://images.brickset.com/sets/small/9494-1.jpg?201110150700
+9495,Gold Leader's Y-wing Starfighter,458,https://images.brickset.com/sets/small/9495-1.jpg?201110170336
+9496,Desert Skiff,213,https://images.brickset.com/sets/small/9496-1.jpg?201205010252
+9497,Republic Striker-class Starfighter,376,https://images.brickset.com/sets/small/9497-1.jpg?201205010252
+9498,Saesee Tiin's Jedi Starfighter,244,https://images.brickset.com/sets/small/9498-1.jpg?201205010252
+9499,Gungan Sub,465,https://images.brickset.com/sets/small/9499-1.jpg?201205010252
+9500,Sith Fury-class Interceptor,748,https://images.brickset.com/sets/small/9500-1.jpg?201205010252
+9509,LEGO Star Wars Advent Calendar,234,https://images.brickset.com/sets/small/9509-1.jpg?201605181111
+9515,The Malevolence,1101,https://images.brickset.com/sets/small/9515-1.jpg?201205010252
+9516,Jabba's Palace,717,https://images.brickset.com/sets/small/9516-1.jpg?201205010252
+9525,Pre Vizsla's Mandalorian Fighter,403,https://images.brickset.com/sets/small/9525-1.jpg?201205110641
+9526,Palpatine's Arrest,645,https://images.brickset.com/sets/small/9526-1.jpg?201205291215
+9674,Naboo Starfighter & Naboo,56,https://images.brickset.com/sets/small/9674-1.jpg?201111200229
+9675,Sebulba's Podracer & Tatooine,80,https://images.brickset.com/sets/small/9675-1.jpg?201111200229
+9676,TIE Interceptor & Death Star,65,https://images.brickset.com/sets/small/9676-1.jpg?201111200229
+9677,X-wing Starfighter & Yavin 4,77,https://images.brickset.com/sets/small/9677-1.jpg?201205010135
+9678,Twin-Pod Cloud Car & Bespin,78,https://images.brickset.com/sets/small/9678-1.jpg?201205010135
+9679,AT-ST & Endor,65,https://images.brickset.com/sets/small/9679-1.jpg?201205010135
+10018,Darth Maul,1868,https://images.brickset.com/sets/small/10018-1.jpg?200709280629
+10019,Rebel Blockade Runner,1747,https://images.brickset.com/sets/small/10019-1.jpg?201703240324
+10026,Special Edition Naboo Starfighter,187,https://images.brickset.com/sets/small/10026-1.jpg?200206190556
+10030,Imperial Star Destroyer,3096,https://images.brickset.com/sets/small/10030-1.jpg?200709280625
+10123,Cloud City,698,https://images.brickset.com/sets/small/10123-1.jpg?200709280626
+10129,Rebel Snowspeeder,1457,https://images.brickset.com/sets/small/10129-1.jpg?200706300826
+10131,TIE Fighter Collection,682,https://images.brickset.com/sets/small/10131-1.jpg?200801171242
+10134,Y-wing Attack Starfighter,1473,https://images.brickset.com/sets/small/10134-1.jpg?200409260519
+10143,Death Star II,3449,https://images.brickset.com/sets/small/10143-1.jpg?200709280626
+10144,Sandcrawler,1669,https://images.brickset.com/sets/small/10144-1.jpg?200709280627
+10174,Imperial AT-ST,1068,https://images.brickset.com/sets/small/10174-1.jpg?200706300825
+10175,Vader's TIE Advanced,1212,https://images.brickset.com/sets/small/10175-1.jpg?200608260646
+10178,Motorized Walking AT-AT,1137,https://images.brickset.com/sets/small/10178-1.jpg?200712051219
+10179,Ultimate Collector's Millennium Falcon,5197,https://images.brickset.com/sets/small/10179-1.jpg?200709280259
+10186,General Grievous,1085,https://images.brickset.com/sets/small/10186-1.jpg?200804080442
+10188,Death Star,3803,https://images.brickset.com/sets/small/10188-1.jpg?200807260532
+10195,Republic Dropship with AT-OT,1758,https://images.brickset.com/sets/small/10195-1.jpg?200903231116
+10198,Tantive IV,1408,https://images.brickset.com/sets/small/10198-1.jpg?200905080733
+10212,Imperial Shuttle,2503,https://images.brickset.com/sets/small/10212-1.jpg?201011020607
+10215,Obi-Wan's Jedi Starfighter,676,https://images.brickset.com/sets/small/10215-1.jpg?201010220708
+10221,Super Star Destroyer,3152,https://images.brickset.com/sets/small/10221-1.jpg?201104120227
+10225,R2-D2,2127,https://images.brickset.com/sets/small/10225-1.jpg?201201160156
+10227,B-wing Starfighter,1487,https://images.brickset.com/sets/small/10227-1.jpg?201201160157
+10236,Ewok Village,1990,https://images.brickset.com/sets/small/10236-1.jpg?201605160204
+10240,Red Five X-wing Starfighter,1559,https://images.brickset.com/sets/small/10240-1.jpg?201510140806
+11905,Brickmaster Star Wars: Battle for the Stolen Crystals parts,189,https://images.brickset.com/sets/small/11905-1.jpg?201309200521
+11912,LEGO Star Wars: Build Your Own Adventure parts,73,https://images.brickset.com/sets/small/11912-1.jpg?201608101107
+11920,Star Wars: Build Your Own Adventure Galactic Missions parts,66,https://images.brickset.com/sets/small/11920-1.jpg?201908180915
+20006,Clone Turbo Tank,64,https://images.brickset.com/sets/small/20006-1.jpg?201704051017
+20007,Republic Attack Cruiser,84,
+20009,AT-TE Walker,94,
+20010,Republic Gunship,94,
+20016,Imperial Shuttle,70,
+20018,AT-AT Walker,83,
+20019,Slave I,76,
+20021,Bounty Hunter Assault Gunship,81,
+30004,Battle Droid on STAP,28,
+30005,Imperial Speeder Bike,33,
+30006,Clone Walker,31,
+30050,Republic Attack Shuttle,54,
+30051,Mini X-wing,61,
+30052,AAT,46,
+30053,Republic Attack Cruiser,41,
+30054,AT-ST,46,
+30055,Vulture Droid,42,
+30056,Star Destroyer,38,
+30057,Anakin's Podracer,38,
+30058,STAP,24,
+30059,MTT,51,
+30240,Z-95 Headhunter,54,
+30241,Mandalorian Fighter,49,
+30242,Republic Frigate,45,
+30243,Umbaran MHC,49,
+30244,Anakin's Jedi Interceptor,45,
+30246,Imperial Shuttle,57,
+30247,ARC-170 Starfighter,54,
+30272,A-wing Starfighter,58,
+30274,AT-DP,65,
+30275,TIE Advanced Prototype,47,
+30276,First Order Special Forces TIE Fighter,41,
+30277,First Order Star Destroyer,56,
+30278,Poe's X-wing Fighter,64,
+30279,Kylo Ren's Command Shuttle,43,
+30380,Kylo Ren's Shuttle,33,
+30381,Imperial TIE Fighter,42,
+30383,Naboo Starfighter,48,
+30384,Snowspeeder,49,
+30386,Poe Dameron's X-wing Fighter,72,
+30388,Imperial Shuttle,85,
+30461,Podracer,58,
+30495,AT-ST,79,
+30496,U-wing Fighter,55,
+30497,First Order Heavy Assault Walker,54,
+30498,Imperial AT-Hauler,49,
+30602,First Order Stormtrooper,7,
+30605,Finn (FN-2187),5,
+30611,R2-D2,70,
+30624,Obi-Wan Kenobi - Collectable Minifigure,12,
+30625,Luke Skywalker with Blue Milk,6,
+30654,X-wing Starfighter,87,
+30680,AAT,75,
+30685,TIE Interceptor,48,
+40176,Scarif Stormtrooper,25,
+40268,R3-M2,21,
+40288,BB-8,48,
+40298,DJ,22,
+40299,Kessel Mine Worker,22,
+40300,Han Solo Mudtrooper,22,
+40333,Battle of Hoth - 20th Anniversary Edition,195,
+40362,Battle of Endor,197,
+40407,Death Star II Battle,235,
+40451,Tatooine Homestead,217,
+40483,Luke Skywalker's Lightsaber,173,
+40531,Lars Family Homestead Kitchen,195,
+40557,Defense of Hoth,64,
+40558,Clone Trooper Command Station,66,
+40591,Death Star II,289,
+40658,Millennium Falcon Holiday Diorama,282,
+40686,Trade Federation Troop Carrier,262,
+40730,Luke Skywalker's Lightsaber,145,
+40755,Imperial Dropship vs. Rebel Scout Speeder,383,
+65081,R2-D2 / C-3PO Droid Collectors Set,581,
+65145,X-wing Fighter / TIE Fighter & Y-wing Collectors Set,677,
+65153,Jango Fett's Slave I with Bonus Cargo Case,369,
+65707,Bonus/Value Pack,363,
+65771,Episode III Collectors' Set,544,
+65828,Bonus/Value Pack,244,
+65844,Bonus/Value Pack,280,
+65845,Bonus/Value Pack,371,
+66142,Bonus/Value Pack,302,
+66150,Bonus/Value Pack,396,
+66221,Bonus/Value Pack,437,
+66308,3 in 1 Superpack,414,
+66341,Star Wars Super Pack 3 in 1,342,
+66364,Star Wars Super Pack 3 in 1,308,
+66366,Star Wars Super Pack 3 in 1,531,
+66368,Star Wars Super Pack 3 in 1,316,
+66377,Star Wars Super Pack 3 in 1,484,
+66378,Star Wars Super Pack 3 in 1,330,
+66395,Star Wars Super Pack 3 in 1,367,
+66396,Star Wars Super Pack 3 in 1,644,
+66411,Super Pack 3-in-1,633,
+66431,Super Pack 3-in-1,298,
+66432,Super Pack 3-in-1,763,
+66449,Super Pack 3-in-1,727,
+66456,Star Wars Value Pack,821,
+66473,LEGO Star Wars Super Pack,1360,
+66479,Value Pack,1087,
+66495,Star Wars Value Pack,840,
+66512,Star Wars Rebels Super Pack 2 in 1,1163,
+66514,Microfighter Super Pack 3 in 1,285,
+66515,Microfighter Super Pack 3 in 1,286,
+66533,Microfighter 3 in 1 Super Pack,276,
+66534,Microfighter 3 in 1 Super Pack,288,
+66535,Battle Pack 2 in 1,269,
+66536,Battle Pack 2 in 1,243,
+66542,Microfighters Super Pack 3 in 1,267,
+66543,Microfighters Super Pack 3 in 1,268,
+66555,Super Pack 2 in 1,232,
+66556,Super Pack 2 in 1,242,
+66596,Super Pack 2-in-1,201,
+66597,2-in-1 Super Pack,205,
+66674,Skywalker Adventures Pack,644,
+66708,Galactic Adventures Pack,901,
+66775,Hoth Combo Pack,691,
+66778,Star Wars Mech 3-Pack,432,
+66787,Jedi Masters Gift Set,654,
+75000,Clone Troopers vs. Droidekas,124,
+75001,Republic Troopers vs. Sith Troopers,63,
+75002,AT-RT,222,
+75003,A-wing Starfighter,177,
+75004,Z-95 Headhunter,373,
+75005,Rancor Pit,380,
+75006,Jedi Starfighter & Planet Kamino,61,
+75007,Republic Assault Ship & Planet Coruscant,74,
+75008,TIE Bomber & Asteroid Field,60,
+75009,Snowspeeder & Planet Hoth,69,
+75010,B-Wing Starfighter & Planet Endor,83,
+75011,Tantive IV & Planet Alderaan,102,
+75012,BARC Speeder with Sidecar,226,
+75013,Umbaran MHC (Mobile Heavy Cannon),493,
+75014,Battle of Hoth,426,
+75015,Corporate Alliance Tank Droid,271,
+75016,Homing Spider Droid,295,
+75017,Duel on Geonosis,391,
+75018,Jek-14's Stealth Starfighter,550,
+75019,AT-TE ,794,
+75020,Jabba's Sail Barge,850,
+75021,Republic Gunship,1175,
+75022,Mandalorian Speeder,211,
+75023,LEGO Star Wars Advent Calendar,254,
+75024,HH-87 Starhopper,362,
+75025,Jedi Defender-class Cruiser,927,
+75028,Clone Turbo Tank,96,
+75029,AAT,95,
+75030,Millennium Falcon,94,
+75031,TIE Interceptor,92,
+75032,X-wing Fighter,97,
+75033,Star Destroyer,97,
+75034,Death Star Troopers,100,
+75035,Kashyyyk Troopers,99,
+75036,Utapau Troopers,83,
+75037,Battle on Saleucami,183,
+75038,Jedi Interceptor,223,
+75039,V-wing Starfighter,201,
+75040,General Grievous' Wheel Bike,261,
+75041,Vulture Droid,205,
+75042,Droid Gunship,439,
+75043,AT-AP,717,
+75044,Droid Tri-Fighter,262,
+75045,Republic AV-7 Anti-Vehicle Cannon,434,
+75046,Coruscant Police Gunship,481,
+75048,The Phantom,234,
+75049,Snowspeeder,279,
+75050,B-wing™,448,
+75051,Jedi Scout Fighter,490,
+75052,Mos Eisley Cantina,616,
+75053,The Ghost,929,
+75054,AT-AT,1137,
+75055,Imperial Star Destroyer,1359,
+75056,LEGO Star Wars Advent Calendar,274,
+75058,MTT,954,
+75059,Sandcrawler,3296,
+75060,Slave I,1996,
+75072,ARC-170 Starfighter,95,
+75073,Vulture Droid,77,
+75074,Snowspeeder,97,
+75075,AT-AT,88,
+75076,Republic Gunship,105,
+75077,Homing Spider Droid,102,
+75078,Imperial Troop Transport,141,
+75079,Shadow Troopers,95,
+75080,AAT,251,
+75081,T-16 Skyhopper,247,
+75082,TIE Advanced Prototype,355,
+75083,AT-DP,500,
+75084,Wookiee Gunship,570,
+75085,Hailfire Droid,163,
+75086,Battle Droid Troop Carrier,565,
+75087,Anakin's Custom Jedi Starfighter,370,
+75088,Senate Commando Troopers,106,
+75089,Geonosis Troopers,105,
+75090,Ezra's Speeder Bike,253,
+75091,Flash Speeder,312,
+75092,Naboo Starfighter,442,
+75093,Death Star Final Duel,724,
+75094,Imperial Shuttle Tydirium,937,
+75095,TIE Fighter,1685,
+75096,Sith Infiltrator,662,
+75097,LEGO Star Wars Advent Calendar,292,
+75098,Assault on Hoth,2144,
+75099,Rey's Speeder,193,
+75100,First Order Snowspeeder,444,
+75101,First Order Special Forces TIE Fighter,517,
+75102,Poe's X-wing Fighter,717,
+75103,First Order Transporter,792,
+75104,Kylo Ren's Command Shuttle,1005,
+75105,Millennium Falcon,1329,
+75106,Imperial Assault Carrier,1216,
+75107,Jango Fett,85,
+75108,Clone Commander Cody,82,
+75109,Obi-Wan Kenobi,83,
+75110,Luke Skywalker,83,
+75111,Darth Vader,160,
+75112,General Grievous,186,
+75113,Rey,84,
+75114,First Order Stormtrooper,81,
+75115,Poe Dameron,102,
+75116,Finn,98,
+75117,Kylo Ren,86,
+75118,Captain Phasma,82,
+75119,Sergeant Jyn Erso,104,
+75120,K-2SO,169,
+75121,Imperial Death Trooper,106,
+75125,Resistance X-wing Fighter,87,
+75126,First Order Snowspeeder,91,
+75127,The Ghost,104,
+75128,TIE Advanced Prototype,93,
+75129,Wookiee Gunship,84,
+75130,AT-DP,76,
+75131,Resistance Trooper Battle Pack,112,
+75132,First Order Battle Pack,88,
+75133,Rebel Alliance Battle Pack,101,
+75134,Galactic Empire Battle Pack,109,
+75135,Obi-Wan's Jedi Interceptor,215,
+75136,Droid Escape Pod,197,
+75137,Carbon-Freezing Chamber,231,
+75138,Hoth Attack,233,
+75139,Battle on Takodana,409,
+75140,Resistance Troop Transporter,646,
+75141,Kanan's Speeder Bike,234,
+75142,Homing Spider Droid,310,
+75144,Snowspeeder,1703,
+75145,Eclipse Fighter,363,
+75146,LEGO Star Wars Advent Calendar,282,
+75147,StarScavenger,558,
+75148,Encounter on Jakku,530,
+75149,Resistance X-wing Fighter,740,
+75150,Vader's TIE Advanced vs. A-wing Starfighter,702,
+75151,Clone Turbo Tank,903,
+75152,Imperial Assault Hovertank,385,
+75153,AT-ST Walker,449,
+75154,TIE Striker,543,
+75155,Rebel U-wing Fighter,659,
+75156,Krennic's Imperial Shuttle,863,
+75157,Captain Rex's AT-TE,972,
+75158,Rebel Combat Frigate,936,
+75159,Death Star,4016,
+75160,U-wing Microfighter,109,
+75161,TIE Striker Microfighter,88,
+75162,Y-wing Microfighter,90,
+75163,Krennic's Imperial Shuttle Microfighter,78,
+75164,Rebel Trooper Battle Pack,120,
+75165,Imperial Trooper Battle Pack,112,
+75166,First Order Transport Speeder Battle Pack,117,
+75167,Bounty Hunter Speeder Bike Battle Pack,125,
+75168,Yoda's Jedi Starfighter,262,
+75169,Duel on Naboo,208,
+75170,The Phantom,269,
+75171,Battle on Scarif,419,
+75172,Y-wing Starfighter,691,
+75173,Luke's Landspeeder,149,
+75174,Desert Skiff Escape,277,
+75175,A-wing Starfighter,358,
+75176,Resistance Transport Pod,294,
+75177,First Order Heavy Scout Walker,554,
+75178,Jakku Quadjumper,457,
+75179,Kylo Ren's TIE Fighter,630,
+75180,Rathtar Escape,836,
+75181,Y-wing Starfighter,1967,
+75182,Republic Fighter Tank,305,
+75183,Darth Vader Transformation ,282,
+75184,LEGO Star Wars Advent Calendar,309,
+75185,Tracker I,557,
+75186,The Arrowhead,775,
+75187,BB-8,1106,
+75188,Resistance Bomber (Finch Dallow version),778,
+75188,Resistance Bomber (standard pilot version),778,
+75189,First Order Heavy Assault Walker,1376,
+75190,First Order Star Destroyer,1416,
+75191,Jedi Starfighter with Hyperdrive,825,
+75192,Millennium Falcon,7541,
+75193,Millennium Falcon Microfighter,92,
+75194,First Order TIE Fighter Microfighter,91,
+75195,Ski Speeder vs. First Order Walker Microfighters,216,
+75196,A-Wing vs. TIE Silencer Microfighters,188,
+75197,First Order Specialists Battle Pack,108,
+75198,Tatooine Battle Pack,97,
+75199,General Grievous' Combat Speeder,157,
+75200,Ahch-To Island Training,241,
+75201,First Order AT-ST,370,
+75202,Defense of Crait,746,
+75203,Hoth Medical Chamber,255,
+75204,Sandspeeder,278,
+75205,Mos Eisley Cantina,376,
+75206,Jedi and Clone Troopers Battle Pack,102,
+75207,Imperial Patrol Battle Pack,99,
+75208,Yoda's Hut,229,
+75209,Han Solo's Landspeeder,345,
+75210,Moloch's Landspeeder,464,
+75211,Imperial TIE Fighter,519,
+75212,Kessel Run Millennium Falcon,1414,
+75213,LEGO Star Wars Advent Calendar,307,
+75214,Anakin's Jedi Starfighter,247,
+75215,Cloud-Rider Swoop Bikes,355,
+75216,Snoke's Throne Room,492,
+75217,Imperial Conveyex Transport,622,
+75218,X-wing Starfighter,731,
+75219,Imperial AT-Hauler,829,
+75220,Sandcrawler,1239,
+75221,Imperial Landing Craft,636,
+75222,Betrayal at Cloud City,2812,
+75223,Naboo Starfighter Microfighter,62,
+75224,Sith Infiltrator Microfighter,92,
+75225,Elite Praetorian Guard Battle Pack,109,
+75226,Inferno Squad Battle Pack,118,
+75227,Darth Vader Bust,327,
+75228,Escape Pod vs. Dewback Microfighters,177,
+75229,Death Star Escape,329,
+75230,Porg,811,
+75233,Droid Gunship,389,
+75234,AT-AP Walker,689,
+75235,X-wing Starfighter Trench Run,132,
+75236,Duel on Starkiller Base,191,
+75237,TIE Fighter Attack,77,
+75238,Action Battle Endor Assault,193,
+75239,Action Battle Hoth Generator Attack,235,
+75240,Major Vonreg's TIE Fighter,496,
+75241,Action Battle Echo Base Defense,504,
+75242,Black Ace TIE Interceptor,396,
+75243,Slave I - 20th Anniversary Edition,1007,
+75244,Tantive IV,1768,
+75245,LEGO Star Wars Advent Calendar,280,
+75246,Death Star Cannon,159,
+75247,Rebel A-wing Starfighter,62,
+75248,Resistance A-wing Starfighter,269,
+75249,Resistance Y-wing Starfighter,578,
+75250,Pasaana Speeder Chase,373,
+75251,Darth Vader's Castle,1060,
+75252,Imperial Star Destroyer,4784,
+75253,Droid Commander,1177,
+75254,AT-ST Raider,540,
+75255,Yoda,1771,
+75256,Kylo Ren's Shuttle,1005,
+75257,Millennium Falcon,1351,
+75258,Anakin's Podracer – 20th Anniversary Edition,279,
+75259,Snowspeeder – 20th Anniversary Edition,309,
+75261,Clone Scout Walker  – 20th Anniversary Edition,250,
+75262,Imperial Dropship  – 20th Anniversary Edition,125,
+75263,Resistance Y-wing Microfighter,86,
+75264,Kylo Ren's Shuttle Microfighter,72,
+75265,T-16 Skyhopper vs Bantha Microfighters,198,
+75266,Sith Troopers Battle Pack,105,
+75267,Mandalorian Battle Pack,102,
+75268,Snowspeeder,91,
+75269,Duel on Mustafar ,208,
+75270,Obi-Wan's Hut,200,
+75271,Luke Skywalker's Landspeeder,236,
+75272,Sith TIE Fighter,470,
+75273,Poe Dameron's X-wing Fighter,761,
+75274,TIE Fighter Pilot Helmet,724,
+75275,A-wing Starfighter,1673,
+75276,Stormtrooper Helmet,647,
+75277,Boba Fett Helmet,625,
+75278,D-O,519,
+75279,LEGO Star Wars Advent Calendar,311,
+75280,501st Legion Clone Troopers,285,
+75281,Anakin's Jedi Interceptor,248,
+75283,Armored Assault Tank (AAT),286,
+75284,Knights of Ren Transport Ship,595,
+75286,General Grievous's Starfighter,487,
+75288,AT-AT,1267,
+75290,Mos Eisley Cantina,3187,
+75291,Death Star Final Duel,775,
+75292,The Razor Crest,1023,
+75293,Resistance I-TS Transport,932,
+75294,Bespin Duel,295,
+75295,Millennium Falcon Microfighter,101,
+75296,Darth Vader Meditation Chamber,663,
+75297,Resistance X-wing Starfighter,60,
+75298,AT-AT vs. Tauntaun Microfighters,205,
+75299,Trouble on Tatooine,276,
+75300,Imperial TIE Fighter,432,
+75301,Luke Skywalker's X-wing Fighter,474,
+75302,Imperial Shuttle,660,
+75304,Darth Vader Helmet,834,
+75305,Scout Trooper Helmet,471,
+75306,Imperial Probe Droid,683,
+75307,LEGO Star Wars Advent Calendar,335,
+75308,R2-D2,2314,
+75309,Republic Gunship,3292,
+75310,Duel on Mandalore,147,
+75311,Imperial Armored Marauder,478,
+75312,Boba Fett's Starship,593,
+75313,AT-AT,6785,
+75314,The Bad Batch Attack Shuttle,969,
+75315,Imperial Light Cruiser,1336,
+75316,Mandalorian Starfighter,544,
+75318,The Child,1073,
+75319,The Armorer's Mandalorian Forge,258,
+75320,Snowtrooper Battle Pack,105,
+75321,The Razor Crest Microfighter,98,
+75322,Hoth AT-ST,586,
+75323,The Justifier ,1022,
+75324,Dark Trooper Attack,166,
+75325,The Mandalorian's N-1 Starfighter,412,
+75326,Boba Fett's Throne Room,732,
+75327,Luke Skywalker (Red Five) Helmet,675,
+75328,The Mandalorian Helmet,584,
+75329,Death Star Trench Run Diorama,665,
+75330,Dagobah Jedi Training Diorama,1000,
+75331,The Razor Crest,6187,
+75332,AT-ST,87,
+75333,Obi-Wan Kenobi's Jedi Starfighter,282,
+75334,Obi-Wan Kenobi vs. Darth Vader,408,
+75335,BD-1,1062,
+75336,Inquisitor Transport Scythe,924,
+75337,AT-TE Walker,1082,
+75338,Ambush on Ferrix,679,
+75339,Death Star Trash Compactor Diorama,802,
+75340,LEGO Star Wars Advent Calendar,329,
+75341,Luke Skywalker's Landspeeder,1890,
+75342,Republic Fighter Tank,262,
+75343,Dark Trooper Helmet,693,
+75344,Boba Fett's Starship Microfighter,85,
+75345,501st Clone Troopers Battle Pack,119,
+75346,Pirate Snub Fighter,285,
+75347,TIE Bomber,625,
+75348,Mandalorian Fang Fighter vs TIE Interceptor,957,
+75349,Captain Rex Helmet,854,
+75350,Clone Commander Cody Helmet,766,
+75351,Princess Leia (Boushh) Helmet,670,
+75352,Emperor's Throne Room Diorama,807,
+75353,Endor Speeder Chase Diorama,608,
+75354,Coruscant Guard Gunship,1083,
+75355,X-wing Starfighter,1949,
+75356,Executor Super Star Destroyer,630,
+75357,Ghost & Phantom II,1394,
+75358,Tenoo Jedi Temple,124,
+75359,332nd Ahsoka's Clone Trooper Battle Pack,108,
+75360,Yoda's Jedi Starfighter,253,
+75361,Spider Tank,526,
+75362,Ahsoka Tano's T-6 Jedi Shuttle,601,
+75363,The Mandalorian N-1 Starfighter Microfighter,88,
+75364,New Republic E-wing vs. Shin Hati's Starfighter,1056,
+75365,Yavin 4 Rebel Base,1066,
+75366,LEGO Star Wars Advent Calendar,320,
+75367,Venator-class Republic Attack Cruiser,5374,
+75368,Darth Vader Mech,139,
+75369,Boba Fett Mech,155,
+75370,Stormtrooper Mech,138,
+75371,Chewbacca,2319,
+75372,Clone Trooper & Battle Droid Battle Pack,215,
+75373,Ambush on Mandalore Battle Pack ,109,
+75374,The Onyx Cinder,1325,
+75375,Millennium Falcon,921,
+75376,Tantive IV,654,
+75377,Invisible Hand,557,
+75378,BARC Speeder Escape ,221,
+75379,R2-D2,1050,
+75380,Mos Espa Podrace Diorama,718,
+75381,Droideka,583,
+75382,TIE Interceptor,1931,
+75383,Darth Maul's Sith Infiltrator,640,
+75384,The Crimson Firehawk,136,
+75385,Ahsoka Tano's Duel on Peridea,382,
+75386,Paz Vizsla and Moff Gideon Battle,289,
+75387,Boarding the Tantive IV,502,
+75388,Jedi Bob's Starfighter,305,
+75389,The Dark Falcon,1579,
+75390,Luke Skywalker X-wing Mech ,195,
+75391,Captain Rex Y-wing Microfighter ,99,
+75392,Creative Play Droid Builder,1186,
+75393,TIE Fighter & X-wing Mash-up,1063,
+75394,Imperial Star Destroyer,1555,
+75395,Star Wars Advent Calendar 2024,368,
+75396,Desert Skiff & Sarlacc Pit,558,
+75397,Jabba's Sail Barge,3942,
+75398,C-3PO,1138,
+75512,Millennium Falcon Cockpit,203,
+75522,Mini Boost Droid Commander,62,
+75523,Scarif Stormtrooper,89,
+75524,Chirrut Îmwe,87,
+75525,Baze Malbus,148,
+75526,Elite TIE Fighter Pilot,94,
+75528,Rey,85,
+75529,Elite Praetorian Guard,92,
+75530,Chewbacca,179,
+75531,Stormtrooper Commander,100,
+75532,Scout Trooper & Speeder Bike,452,
+75533,Boba Fett,144,
+75534,Darth Vader,168,
+75535,Han Solo,101,
+75536,Range Trooper,101,
+75537,Darth Maul,104,
+77901,Sith Trooper Bust,484,
+77904,Nebulon-B Frigate,459,

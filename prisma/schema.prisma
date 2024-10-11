@@ -5,33 +5,46 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
   directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
 model Post {
-  id        String     @default(cuid()) @id
-  title     String
-  content   String?
-  published Boolean @default(false)
-  author    User?   @relation(fields: [authorId], references: [id])
-  authorId  String?
+  id         String    @id @default(cuid())
+  title      String
+  content    String?
+  published  Boolean   @default(false)
+  author     User?     @relation(fields: [authorId], references: [id])
+  authorId   String?
+  Wishlist   Wishlist? @relation(fields: [wishlistId], references: [id])
+  wishlistId String?
 }
 
 model User {
-  id            String       @default(cuid()) @id
-  name          String?
-  email         String?   @unique
-  createdAt     DateTime  @default(now()) @map(name: "created_at")
-  updatedAt     DateTime  @updatedAt @map(name: "updated_at")
-  posts         Post[]
+  id        String     @id @default(cuid())
+  name      String?
+  email     String?    @unique
+  createdAt DateTime   @default(now()) @map(name: "created_at")
+  updatedAt DateTime   @updatedAt @map(name: "updated_at")
+  posts     Post[]
+  Wishlist  Wishlist[]
+
   @@map(name: "users")
 }
 
 model Lego {
-    id      String              @default(cuid()) @id @unique
-    name    String              
-    piece   Int 
-    img     String
+  id    String @id @unique @default(cuid())
+  name  String
+  piece Int
+  img   String
+}
+
+model Wishlist {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  sets      Post[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
