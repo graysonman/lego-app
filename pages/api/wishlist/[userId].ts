@@ -7,7 +7,7 @@ export default async function handle(req: NextApiRequest, res: NextApiResponse) 
   if (req.method === 'GET') {
     // Get wishlist
     try {
-      const wishlist = await prisma.wishlist.findUnique({
+      const wishlist = await prisma.wishlist.findFirst({
         where: { userId: String(userId) },
         include: { sets: true },
       });
@@ -20,7 +20,7 @@ export default async function handle(req: NextApiRequest, res: NextApiResponse) 
     const { setId } = req.body;
     try {
       const wishlist = await prisma.wishlist.update({
-        where: { userId: String(userId) },
+        where: { id: String(userId) },
         data: {
           sets: {
             connect: { id: setId },
@@ -36,7 +36,7 @@ export default async function handle(req: NextApiRequest, res: NextApiResponse) 
     const { setId } = req.body;
     try {
       const wishlist = await prisma.wishlist.update({
-        where: { userId: String(userId) },
+        where: { id: String(userId) },
         data: {
           sets: {
             disconnect: { id: setId },
