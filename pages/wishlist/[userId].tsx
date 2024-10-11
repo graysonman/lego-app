@@ -24,6 +24,16 @@ const WishlistPage: React.FC<Props> = ({ wishlist }) => {
 
   const handleSearchChange = (event) => setSearchTerm(event.target.value);
 
+  if (!wishlist) {
+    return (
+      <Layout>
+        <div className="page">
+          <h1>Wishlist not found</h1>
+        </div>
+      </Layout>
+    );
+  }
+
   const filteredWishlist = wishlist.sets.filter(
     (lego) =>
       lego.name.toLowerCase().includes(searchTerm.toLowerCase()) ||

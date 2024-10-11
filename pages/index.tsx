@@ -3,6 +3,7 @@ import { GetStaticProps } from "next";
 import Layout from "../components/Layout";
 import { LegoProps } from "../components/Lego";
 import prisma from "../lib/prisma";
+import Link from 'next/link';
 
 export const getStaticProps: GetStaticProps = async () => {
   const feed = await prisma.lego.findMany({
@@ -43,6 +44,38 @@ const LegosList: React.FC<Props> = (props) => {
     setUser(data);
   };
 
+  const handleCreateWishlist = async () => {
+    if (!user) return;
+  
+    const res = await fetch('/api/wishlist/create', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId: user.id }),
+    });
+  
+    if (res.ok) {
+      alert('Wishlist created successfully!');
+    } else {
+      alert('Failed to create wishlist.');
+    }
+  };
+
+  const handleAddToWishlist = async (setId) => {
+    if (!user) return;
+  
+    const res = await fetch(`/api/wishlist/${user.id}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ setId }),
+    });
+  
+    if (res.ok) {
+      alert('Lego set added to wishlist!');
+    } else {
+      alert('Failed to add Lego set to wishlist.');
+    }
+  };
+
   const filteredFeed = props.feed.filter(
     (lego) =>
       lego.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -52,7 +85,7 @@ const LegosList: React.FC<Props> = (props) => {
   return (
     <Layout>
       <div className="page">
-        <h1>Lego Star Wars Sets</h1>
+        <h1>Lego Star Wars Sets Wishlist</h1>
         {!user ? (
           <div>
             <h2>Login</h2>
@@ -80,10 +113,13 @@ const LegosList: React.FC<Props> = (props) => {
           </div>
         ) : (
           <div>
-            <h2>Welcome, {user.name}</h2>
-            <button onClick={() => setUser(null)}>Logout</button>
-            <h2>Your Wishlist</h2>
-            {/* Wishlist component goes here */}
+              <h2>Welcome, {user.name}</h2>
+              <button onClick={() => setUser(null)}>Logout</button>
+              <h2>Your Wishlist</h2>
+              <button onClick={handleCreateWishlist}>Create Wishlist</button>
+              <Link href={`/wishlist/${user.id}`}>
+                <a>Go to Wishlist</a>
+              </Link>
           </div>
         )}
         <div>
@@ -101,6 +137,7 @@ const LegosList: React.FC<Props> = (props) => {
               <h2>{lego.name}</h2>
               <p>Pieces: {lego.piece}</p>
               <img src={lego.img.toString()} alt={lego.name.toString()} />
+              <button onClick={() => handleAddToWishlist(lego.id)}>Add to Wishlist</button>
             </div>
           ))}
         </main>
