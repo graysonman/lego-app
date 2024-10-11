@@ -6,7 +6,7 @@ import { LegoProps } from '../../components/Lego';
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const wishlist = await prisma.wishlist.findUnique({
-    where: { userId: String(params?.userId) },
+    where: { id: String(params?.userId) },
     include: { sets: true, user: true },
   });
   return { props: { wishlist } };
